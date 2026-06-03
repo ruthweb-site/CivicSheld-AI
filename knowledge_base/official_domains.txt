@@ -1,0 +1,31 @@
+DOCUMENT_ID: GOV-DOMAIN-005
+SOURCE: National Informatics Centre (NIC) | nic.in
+TITLE: Official Indian Government Domain Guidelines
+ISSUED_BY: Ministry of Electronics and Information Technology (MeitY)
+
+OFFICIAL GOVERNMENT DOMAIN RULES:
+- All Central Government websites MUST use the domain: .gov.in
+- All State Government websites MUST use: [state].gov.in (e.g., maharashtra.gov.in)
+- Education institutions (IITs, NITs): .ac.in or .edu.in
+- Public sector undertakings: .gov.in or .co.in (verified)
+
+VERIFIED OFFICIAL DOMAINS (examples):
+- scholarships.gov.in (National Scholarship Portal)
+- pmkisan.gov.in (PM-KISAN)
+- ssc.gov.in (Staff Selection Commission)
+- upsc.gov.in (UPSC)
+- uidai.gov.in (Aadhaar / UIDAI)
+- incometax.gov.in (Income Tax)
+- pmjay.gov.in (Ayushman Bharat)
+- india.gov.in (National Portal of India)
+- cybercrime.gov.in (Cyber Crime Reporting)
+- mygov.in (MyGov)
+- digilocker.gov.in (DigiLocker)
+
+RED FLAG DOMAINS (patterns used in SCAMS):
+- Any scheme URL ending in .com, .xyz, .net, .org, .in (without gov)
+- URLs with hyphens and scheme names: pm-free-laptop.com, govt-scholarship-2024.xyz
+- URLs with "apply", "register", "form" added before/after scheme names
+- Bit.ly or shortened URLs claiming to be government links
+
+RULE: If the URL does not end exactly in .gov.in, it is NOT an official Indian government website.

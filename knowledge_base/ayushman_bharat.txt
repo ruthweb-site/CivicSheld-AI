@@ -1,0 +1,31 @@
+DOCUMENT_ID: GOV-HEALTH-004
+SOURCE: Ayushman Bharat – PMJAY | pmjay.gov.in
+TITLE: Pradhan Mantri Jan Arogya Yojana (PM-JAY) Guidelines
+ISSUED_BY: National Health Authority
+OFFICIAL_DOMAIN: pmjay.gov.in | beneficiary.nha.gov.in
+
+SCHEME OVERVIEW:
+- PM-JAY provides health cover of Rs. 5 lakh per family per year.
+- Covers secondary and tertiary hospitalization at empanelled hospitals.
+- 100% cashless treatment. No premium to be paid by the beneficiary.
+
+ELIGIBILITY:
+- Based on SECC (Socio-Economic Caste Census) 2011 data.
+- Includes rural deprived families and urban workers in specified occupations.
+- Check eligibility: https://pmjay.gov.in OR call 14555.
+
+HOW TO ACCESS:
+- Visit any empanelled government or private hospital.
+- Show Aadhaar card or PM-JAY e-card (Golden Card).
+- Get Golden Card from: Common Service Centre (CSC) or District Hospital.
+
+EMPANELLED HOSPITALS: https://hospitals.pmjay.gov.in
+
+OFFICIAL HELPLINE: 14555 (Toll Free, 24x7)
+
+SCAM WARNING:
+- Government does NOT ask for money to issue the Ayushman Bharat card.
+- Do NOT pay touts or agents to get the golden card. It is FREE.
+- Websites other than pmjay.gov.in are NOT official.
+- Government never contacts via WhatsApp to issue or renew cards.
+- Do NOT share OTP or Aadhaar details with unauthorized persons.

@@ -1,0 +1,18 @@
+# Local environment secrets
+.env
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# FAISS RAG cache file
+knowledge_base/rag_cache.pkl
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/

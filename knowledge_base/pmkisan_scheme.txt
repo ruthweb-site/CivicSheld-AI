@@ -1,0 +1,32 @@
+DOCUMENT_ID: GOV-PM-002
+SOURCE: PM KISAN Samman Nidhi | pmkisan.gov.in
+TITLE: PM-KISAN Scheme Official Guidelines
+ISSUED_BY: Ministry of Agriculture & Farmers' Welfare
+OFFICIAL_DOMAIN: pmkisan.gov.in
+
+SCHEME OVERVIEW:
+- PM-KISAN provides income support of Rs. 6,000 per year to eligible farmer families.
+- Amount is paid in 3 equal instalments of Rs. 2,000 each directly to the bank account.
+- No application fee. Completely free scheme.
+
+ELIGIBILITY:
+- All landholding farmer families with cultivable land.
+- Excludes: Government employees, income tax payers, professionals (doctors, engineers, lawyers).
+
+HOW TO APPLY:
+- Register ONLY at: https://pmkisan.gov.in
+- Visit nearest Common Service Centre (CSC) for help. Free of cost.
+- Required documents: Aadhaar, Bank account details, Land records.
+
+PAYMENT VERIFICATION:
+- Check your payment status at: https://pmkisan.gov.in/beneficiarystatus.aspx
+- All payments are done via DBT (Direct Benefit Transfer).
+- Government never calls to ask for OTP or bank account number.
+
+OFFICIAL HELPLINE: 155261 / 1800115526 (Toll Free)
+
+SCAM WARNING:
+- No WhatsApp group or Facebook page is operated by PM-KISAN officially.
+- Websites ending in .com, .xyz, .net claiming to be PM-KISAN are FAKE.
+- The official domain is pmkisan.gov.in ONLY.
+- Do NOT pay any registration fee. The scheme is 100% free.

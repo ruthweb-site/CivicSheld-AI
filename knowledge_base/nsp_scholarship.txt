@@ -1,0 +1,27 @@
+DOCUMENT_ID: GOV-SCH-001
+SOURCE: National Scholarship Portal (NSP) | scholarships.gov.in
+TITLE: Post-Matric Scholarship for SC Students
+ISSUED_BY: Ministry of Social Justice and Empowerment
+VALID_UNTIL: 31 March 2025
+OFFICIAL_DOMAIN: scholarships.gov.in
+
+ELIGIBILITY:
+- Applicant must belong to Scheduled Caste (SC) community.
+- Annual family income must not exceed Rs. 2,50,000.
+- Applicant must have passed Class 10 (Matric) examination.
+- Applicant must be studying in a recognized institution.
+
+APPLICATION PROCESS:
+- Apply ONLY through the official portal: https://scholarships.gov.in
+- No physical application is accepted.
+- Documents required: Income certificate, Caste certificate, Aadhaar card, Bank passbook (with IFSC code).
+- Last date for application: 31 October each year.
+
+PAYMENT:
+- Scholarship amount is credited directly to the student's bank account via DBT (Direct Benefit Transfer).
+- No agent or middleman is involved. Government never asks for money to process applications.
+
+WARNING:
+- The government does NOT send scholarship offers via WhatsApp or SMS.
+- Any website other than scholarships.gov.in is NOT official.
+- Do NOT share OTP, ATM PIN, or bank details with anyone claiming to process your scholarship.
