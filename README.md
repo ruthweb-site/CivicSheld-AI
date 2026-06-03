@@ -29,12 +29,9 @@
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [Setup & Installation](#-setup--installation)
-- [Configuration (API Key)](#-configuration--api-key-security)
 - [Usage](#-usage)
 - [How It Works](#-how-it-works-end-to-end-flow)
 - [Domain Security Module](#-domain-security-module)
-- [Screenshots](#-screenshots)
-- [Contributing](#-contributing)
 
 ---
 
@@ -368,34 +365,6 @@ Open your browser at `http://localhost:8501` 🎉
 
 ---
 
-## 🔐 Configuration & API Key Security
-
-CivicShield AI uses `python-dotenv` to securely load your NVIDIA NIM API key from a `.env` file.
-
-**How the secret is protected:**
-
-```
-.env  ──(gitignored)──▶  NOT pushed to GitHub
- │
- └──▶  python-dotenv.load_dotenv()
-               │
-               ▼
-       os.getenv("NVIDIA_API_KEY")
-               │
-               ▼
-       agents.py  ──▶  NVIDIA NIM API Call
-```
-
-| File | Committed to Git? | Contains Secret? |
-|------|-------------------|-----------------|
-| `.env` | ❌ No (gitignored) | ✅ Real API key |
-| `.env.example` | ✅ Yes | ❌ Placeholder only |
-| `agents.py` | ✅ Yes | ❌ Uses `os.getenv()` |
-
-> 💡 GitHub's **Push Protection** will block commits containing live API keys. Our architecture ensures the key never appears in any committed file.
-
----
-
 ## 🚀 Usage
 
 1. **Launch the app** with `streamlit run app.py`
@@ -484,73 +453,6 @@ Domain Input (e.g. pm-kisan-free.xyz)
    ├─ Score ≥40  → SUSPICIOUS DOMAIN 🟡
    └─ Score ≥70  → CRITICAL SCAM RISK 🔴
 ```
-
----
-
-## 📊 Agent Output Schema
-
-Each agent returns a structured JSON payload:
-
-```json
-// Agent 1 — Authenticity Agent
-{
-  "score": 32,
-  "red_flags": [
-    "Non-Government URL: domain is not .gov.in",
-    "Suspicious Promises: unrealistic benefits"
-  ]
-}
-
-// Agent 2 — Policy Agent
-{
-  "policy_mismatch": true,
-  "red_flags": ["Deadline Mismatch: contradicts official records"],
-  "source_references": ["PM-KISAN Scheme", "Official Domain Registry"]
-}
-
-// Agent 3 — Risk Agent
-{
-  "risk_level": "HIGH RISK / SCAM LIKELY",
-  "total_score": 32,
-  "all_red_flags": ["Non-Government URL", "Deadline Mismatch"],
-  "source_references": ["PM-KISAN Scheme"]
-}
-
-// Agent 4 — Accessibility Agent
-{
-  "parent_friendly_summary": "This notice is likely fake because..."
-}
-
-// Agent 5 — Action Agent
-{
-  "recommended_actions": [
-    "Do not share personal or banking information.",
-    "Report this to cybercrime.gov.in"
-  ]
-}
-```
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/new-agent`)
-3. Add your changes and test them
-4. Ensure your `.env` is **not** staged: `git status` should not show `.env`
-5. Commit your changes (`git commit -m 'Add new verification agent'`)
-6. Push to the branch (`git push origin feature/new-agent`)
-7. Open a Pull Request
-
----
-
-## 🏆 Hackathon Context
-
-This project was built for the **NVIDIA AI Hackathon** to demonstrate the power of:
-- **NVIDIA NIM** — Production-grade LLM inference APIs
-- **Agentic AI** — Multi-agent orchestration for complex reasoning tasks
-- **RAG (Retrieval Augmented Generation)** — Grounded, verifiable AI responses
-- **Social Impact** — Protecting citizens from government scheme scams
 
 ---
 
