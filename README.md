@@ -64,6 +64,10 @@ It leverages:
 
 ## 🏗️ System Architecture
 
+<div align="center">
+  <img src="diagram.png" alt="CivicShield AI System Architecture Diagram" width="100%" />
+</div>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                          CivicShield AI — System Architecture                ║
