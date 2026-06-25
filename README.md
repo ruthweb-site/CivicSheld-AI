@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/120px-Emblem_of_India.svg.png" width="100" alt="Emblem of India" />
+<img src="civicshield_logo.png" width="120" alt="CivicShield AI Logo" />
 
 # 🛡️ CivicShield AI
 

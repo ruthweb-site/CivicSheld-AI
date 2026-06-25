@@ -33,8 +33,8 @@ load_rag()
 # ── Sidebar ──────────────────────────────────────────────────────────
 with st.sidebar:
     st.image(
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/250px-Emblem_of_India.svg.png",
-        width=100
+        "civicshield_logo.png",
+        width=120
     )
     st.title("CivicShield AI")
     st.markdown("---")
